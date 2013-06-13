@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/FooterBar">
+    
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/title_text"
+            android:gravity="center"
+            android:paddingTop="10dip"
+            android:id="@+id/equity_app_footer"
+            android:onClick="onClickAd"
+            android:clickable="true"
+            android:scrollHorizontally="true"/>
+</LinearLayout>
+

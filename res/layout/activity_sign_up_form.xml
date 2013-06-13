@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/user_registration_step1_header">
+        
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+   </LinearLayout>
+    
+    
+	<!-- Body starts here -->   
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/user_registration_step1_header">
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+ 
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Sign up"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Name" />
+      
+        		<EditText
+            		android:id="@+id/full_name_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+           
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/email_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/emailaddress_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Password" />
+      
+        		<EditText
+            		android:id="@+id/enter_password_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:password="true" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Confirm Password" />
+      
+        		<EditText
+            		android:id="@+id/confirm_password_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:password="true" /> 
+            </TableRow>
+            <TableRow >
+             	<Button android:id="@+id/myDatePickerButton"
+        			android:layout_width="wrap_content"
+        			android:layout_height="wrap_content"
+        			android:text="Date of Birth"/>
+
+				<TextView android:id="@+id/showMyDate"
+    				android:layout_width="fill_parent" 
+    				android:layout_height="wrap_content"/>
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Gender" />
+      
+        		<Spinner
+    				android:id="@+id/gender_spinner"
+    				android:layout_width="fill_parent"
+    				android:layout_height="wrap_content" /> 
+            </TableRow>
+            
+            <TableRow >
+                <Button
+            		android:id="@+id/btn_sign_up_user"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Sign Up" />
+                
+            </TableRow>
+            
+            <TableRow >
+			    <TextView android:id="@+id/user_reg_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+			</TableRow>
+        </TableLayout> 
+        
+        <Button
+            android:id="@+id/btn_go_to_login_screen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:text="Already registred. Log Me In!"
+            android:textColor="#21dbd4"
+            android:textStyle="bold" />    
+            
+        <TextView android:id="@+id/user_sign_up_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+        
+    </LinearLayout>
+    </ScrollView>
+  
+    <!--  Include Footer -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

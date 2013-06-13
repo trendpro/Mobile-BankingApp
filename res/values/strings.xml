@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Choose one of the features below.</string>
+
+    <string name="app_name">Equity App</string>
+    <string name="description_logo">Equty App</string>
+
+    <string name="description_about">About</string>
+    <string name="description_home">Home</string>
+    <string name="description_search">Search</string>
+    <string name="description_feature1">Get Nearest ATM</string>
+    <string name="description_feature2">Eazzy 24/7</string>
+    <string name="description_feature3">Rates N Charges</string>
+    <string name="description_feature4">NSE Live!</string>
+    <string name="description_feature5">Equity News</string>
+
+    <string name="title_about">About</string>
+    <string name="title_home">Home</string>
+    <string name="title_search">Search</string>
+    <string name="title_feature1">Get Nearest ATM</string>
+    <string name="title_feature2">Eazzy 24/7</string>
+    <string name="title_feature3">Rates N Charges</string>
+    <string name="title_feature4">NSE Live!</string>
+    <string name="title_feature5">Equity News</string>
+    <string name="title_feature6">Feature6 title</string>
+    <string name="user_reg_step1_title">User Registration</string>
+
+    <string name="default_intro">This is the default content view for an activity. Be sure to change your activity\'s onCreate method. Use setContentView on a custom layout.</string>
+    <string name="feature1_intro">Feature 1 content goes here.</string>
+    <string name="feature2_intro">Feature 2 content goes here.</string>
+    <string name="feature3_intro">Feature 3 content goes here.</string>
+    <string name="feature4_intro">Feature 4 content goes here.</string>
+    <string name="feature5_intro">Feature 5 content goes here.</string>
+    <string name="feature6_intro">Feature 6 content goes here.</string>
+
+    <string name="about_intro">This is an equity android app.</string>
+    <string name="search_intro">Content for the Search page goes here.</string>
+
+    <!-- Eazzy 24/7 login strings -->
+    <string name="title_eazzy247_login">User Login</string>
+    <string name="username_eazzy247_login">Customer ID:</string>
+    <string name="password_eazzy247_login">Password:</string>
+    <string name="register_user_eazzy247_login">I don\'t have account. Register Me!</string>
+    <string name="btn_login_eazzy247_login">Login</string>
+    <!-- end of Eazzy 24/7 login strings -->
+    
+	<!--  Commom Button Actions Titles -->
+    <string name="btn_next_title">Next</string>
+    <string name="btn_login_title">Login</string>
+    <string name="btn_cancel_title">Cancel</string>
+    <string name="btn_logout_title">Logout</string>
+    
+    <!-- Step 1 of 5 of user_registration -->
+    <string name="first_name_user_reg">First Name:</string>
+    <string name="last_name_user_reg">Last Name:</string>
+    <string name="middle_name_user_reg">Middle Name:</string>
+    <string name="title_user_reg">Title:</string>
+    <string name="address_user_reg">P.O Box:</string>
+    <string name="postalcode_user_reg">Postal Code:</string>
+    <string name="town_user_reg">Town:</string>
+    <string name="email_user_reg">Email:</string>
+    <string name="mobile_nouser_reg">Mobile No.:</string>
+    <!--  End of 1 of 5 of user_registration-->
+    
+    <!-- Step 2 of 5 of user_registration -->
+    <string name="atm_card_no_user_reg">ATM Card No.:</string>
+    <string name="atm_card_expiry_date_user_reg">Expiry Date:</string>
+    <string name="account_no1_user_reg">Account No. 1:</string>
+    <string name="alias_name1_user_reg">Alias Name:</string>
+    <string name="account_no2_user_reg">Account No. 2:</string>
+    <string name="alias_name2_user_reg">Alias Name:</string>
+    <string name="account_no3_user_reg">Account No. 3:</string>
+    <string name="alias_name3_user_reg">Alias Name:</string>
+    <string name="alias_name_description_user_reg">Alias Name is a four alpha character code to represent your account no(It must be 4 characters only)</string>  
+    <!--  End of 2 of 5 of user_registration-->
+    
+    <!-- Step 3 of 5 of user_registration -->
+    <string name="salary_remittance_alert_user_reg">Salary/Remittance Alert</string>
+    <string name="card_transaction_alert_user_reg">Card Transaction Alert</string>
+    <string name="overdrawn_ac_alert_user_reg">Overdrawn A/C Alert</string>
+    <string name="cheque_cleared_alert_user_reg">Cheque Cleared alert</string>
+    <string name="cheque_deposit_alert_user_reg">Cheque Deposit Alert</string>
+    <string name="on_large_debit_ksh_user_reg">On Large Debit Ksh.</string>
+    <string name="on_large_credit_ksh_user_reg">On Large Credit Ksh.</string>
+    <!--  End of 3 of 5 of user_registration-->
+    
+    <!-- Step 4 of 5 of user_registration:TERMS AND CONDITIONDS -->
+    <string name="tc_intro_user_reg">Please Read and Understand the following Terms and Conditions</string>
+    <string name="tc1_user_reg">1.The use of Eazzy 24/7 made available by Equity Bank to its customers shall at all times be governed by the following terms and conditions.
+	    
+	</string>
+	<string name="tc2_user_reg">2.In these terms, reference to “we” “us” “our” shall mean Equity Bank and the reference to “you” “your” shall mean you the customer
+	    
+	</string>
+	<string name="tc3_user_reg">3.You accept responsibility for making sure that you understand how to use the Eazzy 24/7 service. We shall not be responsible to you for any
+		losses caused by your failure to properly use the service.
+	    
+	</string>
+	<string name="tc4_user_reg">4.We reserve the right to determine the services that will be offered on Eazzy 24/7 and will from time to time determine or specify at our
+		discretion the scope and features of the Eazzy 24/7 and are entitled to modify, expand or reduce the same at any time without notice to
+		you. By making an application to use Eazzy 24/7 you will be bound by any future modifications, expansions enhancements deletions or
+		reductions made by us.
+	    
+	</string>
+	<string name="tc5_user_reg">5.You can register only one mobile phone number for multiple accounts but cannot register multiple mobile numbers for one account
+		number. You hereby confirm, declare and acknowledge that the phone number provided to us is owned by you or in your control and that
+		any communication from and to the said phone is and shall be with the knowledge of and within your control. You shall in all circumstances
+		accept full responsibility for any and all instructions sent to us from the phone number and you hereby authorize us to act on the
+		instructions and process any and all transactions. You agree and acknowledge that we shall in no way be held responsible or liable if you
+		incur loss as a result of carrying out the instructions of you pursuant to your access of the Eazzy 24/7.
+	    
+	</string>
+	<string name="tc6_user_reg">6.The Eazzy 24/7 may, without prior notice to you, be suspended or terminated by us for any reason whatsoever, including, without limitation,
+		invalid data, closure of related account (s), breakdown, maintenance, modification, expansion and/or enhancement work caused or initiated
+		by the telecommunications company (s) concerned in relation to their network or by any service provider in respect of the Eazzy 24/7. We
+		will not assume any liability or responsibility for any such suspension or termination.
+	    
+	</string>
+	<string name="tc7_user_reg">7.The Eazzy 24/7 may be terminated at any time by notice from you to us in the form of an application form (available at any of our branches).
+		Any such termination shall be effective within (2) days of receipt of the termination notice by us.
+	    
+	</string>
+	<string name="tc8_user_reg">8.You acknowledge that any information received by you under the Eazzy 24/7 is for information only, and shall not be taken as conclusive
+		evidence of the matter to which it relates. You understand that the date and time on the information advices best the date and time of
+		Equity Bank’s main computer.
+	    
+	</string>
+	<string name="tc9_user_reg">9.You shall use only the mobile phone number that has been informed to us stated in the application form. You shall promptly notify us, by
+		filing out a change request form, of any changes to information provided to us by you relating to or for the purposes of the Eazzy 24/7
+		including the details of your designated mobile phone number and the telecommunications company providing or servicing it. In addition,
+		you shall promptly inform us of any loss or theft of your mobile phone by calling our Help Desk at Card Center on telephone numbers
+		provided from time to time. We shall not be liable for any loss or claim resulting from the relaying of any information to the designated
+		mobile phone number prior to receipt of any notification of loss or theft.
+		Following receipt of notification of loss or theft, the bank shall deactivate the subscription until further instructions are received.
+	    
+	</string>
+	<string name="tc10_user_reg">10.You shall be solely responsible for all the transactions and consequences arising out of the messages emanating from the registered mobile
+		phone instrument. We will not assume any responsibility or liability for unauthorized messages sent by any other person without authority.
+	    
+	</string>
+	<string name="tc11_user_reg">11.We shall not assume any liability or responsibility for any failure or delay in transmitting information to you or any error in such information,
+		unless this results from negligence or willful default on our part. In particular, we shall not assume any liability or responsibility for the
+		consequences arising from any cause beyond our control including, without limitation, failure of your telecommunications equipment to
+		receive information for whatever reason, any telecommunications breakdown, mechanical failure, path failure, malfunction, breakdown,
+		interruption or accuracy of equipment or installation, force majeure event such as sabotage, fire, floods, explosion, acts of God, civil
+		commotion, strikes, act of government, computer hacking, unauthorized access to computer data, computer crashes etc.
+	    
+	</string>
+	<string name="tc12_user_reg">12.We shall not be liable under any circumstances for any damages whatsoever whether such interruption of business or loss of any character
+		or nature whatsoever and whether sustained by you or by any other person. We make no representations or give no warranty with respect
+		to the quality of the service provided by any mobile service provider.
+	    
+	</string>
+	<string name="tc13_user_reg">13.We will provide you with an initial PIN at the time of availing of service. You must keep your Personal Identification Number (PIN)
+		confidential never under any circumstances disclosing it to any one and take all reasonable care to prevent its unauthorized and fraudulent
+		use. . You acknowledge that the PIN selected acts as your authorized signature. The PIN authorizes and validates directions given by you. If
+		you give your PIN to anyone or fail to safeguard its secrecy, you do so at your own risk and we shall not be liable for any loss arising from a
+		shared PIN.
+	    
+	</string>
+	<string name="tc14_user_reg">14.You must tell the bank immediately of any unauthorized access to the Eazzy 24/7 or any unauthorized transactions or any instructions which
+		you know of or suspect
+	    
+	</string>
+	<string name="tc15_user_reg">15.In consideration of us agreeing to provide the Eazzy 24/7 service to you, you hereby irrevocably agree and undertake to indemnify and keep
+		us indemnified at all times hereafter and hold us harmless against all actions, claims, demands, liabilities, losses, damages, legal fees, costs,
+		and expenses of whatever nature that may result or which we may sustain, suffer or incur as a result of our agreeing to provide the Eazzy
+		24/7 to you. You further agree and confirm that this indemnity shall remain valid and subsisting and binding upon you notwithstanding
+		withdrawal, either partially or in totality, of the Eazzy 24/7 service.
+	    
+	</string>
+	<string name="tc16_user_reg">16.We shall not be liable for any losses or damage caused (a) by the disclosure of confidential information; (b) by the disclosure of information
+		to the designated mobile phone where such designated mobile phone is in another person’s possession with your consent; or (c) to your
+		data, designated mobile phone, communications equipment or other equipment, in each case caused by your use of the Eazzy 24/7 unless
+		such loss or damage is directly and solely caused by our willful default or negligence.
+	    
+	</string>
+	<string name="tc17_user_reg">17.We reserve the right and you hereby authorize us to send you customized messages over your mobile phone for marketing or regarding the
+		provision of other services or products or for any other purpose we deem fit unless specifically instructed otherwise by you in writing.
+	    
+	</string>
+	<string name="tc18_user_reg">18.You understand and confirm that we may, at our sole discretion, record any and all information or instructions relayed from your phone to
+		us and to you from us and collect and store the same along with all information in such form and manner as it deems necessary and
+		appropriate. The information may be relied upon by us or any person who may reasonably require the same and or produced in any
+		proceedings or otherwise.
+	    
+	</string>
+	<string name="tc19_user_reg">19.Any notice from us to you may be in such manner and by such means of communication as we shall deem fit, including, without limitation,
+		use of direct mailing material, advertisement, branch display, electronic communication such as e-mail or via the Eazzy 24/7. Any notice
+		from you to us shall be in writing at the following address unless otherwise indicated in these Terms and Conditions: Card Center, Equity Bank,
+		P. O. Box 75104-00200 Nairobi Kenya.
+	    
+	</string>
+	<string name="tc20_user_reg">20.We reserve the right at all times to vary or amend the foregoing Termsand Conditions or to introduce new Terms and Conditions. Any such
+		variations or amendments shall become effective and binding on you upon notification by us to you. If you are unwilling to accept such
+		variations or amendments you may terminate the Eazzy 24/7 service by providing written notice thereof.
+	    
+	</string>
+	<string name="tc21_user_reg">21.Operator charges apply.
+	    
+	</string>
+	<string name="tc22_user_reg">22.These Terms and Conditions shall be governed by and construed in accordance with the Laws of the Republic of Kenya.
+	    
+	</string>
+	<string name="tc23_user_reg">23.sBy registering to Eazzy 24/7 you agree to have understood, accept and abide by all the Terms and Conditions governing the Eazzy 24/7
+		including any subsequent variations or amendments
+	    
+	</string>
+	<string name="tc_acceptance_user_reg">I accept Terms and Conditions</string>
+	<string name="finish_msg_user_reg">You will receive your 5 digit PIN through SMS which you will use to access Eazzy 24/7 service
+		once your application has been processed.
+	    
+	</string>
+	<string name="normal_user_reg">Please register for Eazzy 24/7 Service through dispora desk or in the nearest Equity Bank Branch. Thank You
+	    </string>
+    <!--  End of 4 of 5 of user_registration-->
+    
+    <!--Eazy247 main menu items -->
+    <string name="menu_eazyy247_main_menu">MAIN MENU</string>
+    <string name="airtime_topup_eazyy247_main_menu">Airtime TopUp</string>
+    <string name="balance_enquiry_eazyy247_main_menu">Balance Enquiry</string>
+    <string name="mini_statement_eazyy247_main_menu">Mini Statement</string>
+    <string name="funds_transfer_eazyy247_main_menu">Funds Transfer</string>
+    <string name="bill_payment_eazyy247_main_menu">Bill Payment</string>
+    <string name="requests_eazyy247_main_menu">Requests</string>
+    <string name="Settings__eazyy247_main_menu">Settings</string>
+    <string name="logout_eazyy247_main_menu">Logout</string>
+    <!--End of Eazy247 main menu item-->
+    
+     <!--airtime topup main menu option-->
+     <string name="source_ac_airtime_topup_menu_option">Source A/C:</string>
+     <string name="operator_airtime_topup_menu_option">Mobile Operator:</string>
+     <string name="mobile_no_airtime_topup_menu_option">Mobile No.:</string>
+     <string name="amount_airtime_topup_menu_option">Amount(KES):</string>
+     <string name="btn_topup_airtime_topup_menu_option">TopUp</string>
+     <string name="btn_beneficiary_airtime_topup_menu_option">Beneficiary</string>
+     <!--End of airtime topup main menu option-->
+     
+     <!-- balance enquiry main menu option-->
+     <string name="account_no_balance_enquiry_menu_option">Account No.:</string>
+     <string name="balance_balance_enquiry_menu_option">Balance:</string>
+     <string name="btn_get_balance_balance_enquiry_menu_option">Get Balance</string>
+     <!--End of balance enquiry main menu option-->
+     
+     <!--mini statement main menu option-->
+     <string name="select_ac_mini_statement_menu_option">Select Account:</string>
+     <string name="btn_get_mini_statement_menu_option">Get Statement</string>
+     <!--End of mini statement main menu option-->
+     
+     <!-- Options menu strings -->
+     <string name="add_beneficiary">Add Beneficiary</string>
+     <string name="delete_beneficiary">Delete Beneficiary</string>
+     <!-- End of options menu strings -->
+     
+     <!-- Funds Transfer Main Menu Option strings-->
+     <string name="activity_title_funds_transfer_main_menu_option">Re-Authentication Required!</string>
+     <string name="customer_id_funds_transfer_main_menu_option">Customer ID:</string>
+     <string name="password_funds_transfer_main_menu_option">Password:</string>
+     <string name="btn_re_authenticate_funds_transfer_main_menu_option">Re-Authenticate</string>
+     
+     <string name="source_ac_funds_transfer_main_menu_option">Source Account:</string>
+     <string name="destination_ac_funds_transfer_main_menu_option">Destination Account:</string>
+     <string name="destination_bank_funds_transfer_main_menu_option">Destination Bank:</string>
+     <string name="amount_funds_transfer_main_menu_option">Amount:</string>
+     <string name="btn_transfer_funds_transfer_main_menu_option">Transfer</string>
+     <string name="btn_beneficiary_funds_transfer_main_menu_option">Beneficiaries</string>
+     <!-- End of Funds Transfer Main Menu Option strings -->
+     
+     <!-- Bill Payment-->
+     <string name="pay_bill_title_bill_payment_main_menu_option">Pay Bill</string>
+     <string name="source_ac_bill_payment_main_menu_option">Source Account:</string>
+     <string name="bill_no_bill_payment_main_menu_option">Bill (Account) No.:</string>
+     <string name="amount_bill_payment_main_menu_option">Amount:</string>
+     <string name="btn_pay_bill_bill_payment_main_menu_option">Pay Bill</string>
+     
+     <string name="add_a_bill_title_bill_payment_menu_option">Add A Bill</string>
+     <string name="add_a_bill_ic_menu_bill_payment_main_menu_option">Add A Bill</string>
+     <string name="bill_name_bill_payment_main_menu_option">Bill Name:</string>
+     <string name="bill_no_add_a_bill_bill_payment_menu_option">Bill No.:</string>
+     <string name="bill_ac_no_bill_payment_menu_option">Bill Account No.:</string>
+     <string name="btn_add_bill_bill_payment_menu_option">Add Bill</string>
+     
+     <string name="delete_a_bill_title_bill_payment_menu_option">Delete A Bill</string>
+     <string name="delete_a_bill_ic_menu_bill_payment_main_menu_option">Delete A Bill</string>
+     <string name="select_bill_to_delete_bill_payment_menu_option">Select Bill:</string>
+     <string name="btn_delete_bill_bill_payment_menu_option">Delete Bill</string>
+     <string name="btn_view_my_bills_bill_payment_main_menu_option">My Bills</string>
+     <!-- End of Bill Payment -->
+    
+    <!-- Requests and alerts strings-->
+    <string name="requests_title_main_menu_option">Requests And Alerts</string>
+    <string name="mini_statement_request_main_menu_option">Mini Statement Request</string>
+    <string name="full_statement_request_main_menu_option">Full Statement Request</string>
+    <string name="cheque_book_request_main_menu_option">Cheque Book Request</string>
+    <string name="investment_services_request_main_menu_option">Investment Services request</string>
+    <string name="insurance_services_request_main_menu_option">Insurance Services Request</string>
+    <string name="credit_services_request_main_menu_option">Credit Services Request</string>
+    <string name="btn_stop_a_card_request_main_menu_option">Stop a Card</string>
+    <string name="btn_stop_a_cheque_request_main_menu_option">Stop a Cheque</string>
+    
+    <!-- End of Requests and alerts strings -->
+    
+    <!--Stopping a card strings  -->
+    <string name="title_stop_a_card_request_menu_option">Stop A Card</string>
+    <string name="card_no_stop_a_card_request_menu_option">Card No.:</string>
+    <string name="account_no_stop_a_card_request_menu_option">Account No.:</string>
+    <string name="expiry_date_stop_a_card_request_menu_option">Expiry Date:</string>
+    <string name="btn_stop_card_stop_a_card_request_menu_option">Card Card</string>
+    <!--end of stopping a card strings  -->
+    
+    <!-- Stopping a cheque strings -->
+    <string name="title_stop_a_cheque_request_menu_option">Stop A Cheque</string>
+    <string name="cheque_no_stop_a_cheque_request_menu_option">Cheque No.:</string>
+    <string name="account_no_stop_a_cheque_request_menu_option">Account No.:</string>
+    <string name="btn_stop_cheque_stop_a_cheque_request_menu_option">Stop Cheque</string>
+    <!-- End of stopping a cheque strings -->
+    
+    <!-- Settings Strings -->
+    <string name="btn_change_language_settings_main_menu_option">Change Language</string>
+    <string name="title_change_language_settings_main_menu_option">Change Language</string>
+    <string name="btn_change_password_settings_main_menu_option">Change Password</string>
+    <string name="title_change_password_settings_main_menu_option">Change Password</string>
+    <!-- End of Settings Strings -->
+    
+    <!-- Change Password Strings -->
+    <string name="current_password_change_password_settings">Current Password:</string>
+    <string name="new_password_change_password_settings">New Password:</string>
+    <string name="confirm_new_password_change_password_settings">Confirm New Password:</string>
+    <string name="btn_change_password_change_password_settings">Change Password</string>
+    <!-- End of Change Password Strings -->
+    
+    <!-- Get nearest ATM Menu Strings-->
+    <string name="satelite_view_get_nearest_atm_menu">Satelite View</string>
+    <string name="map_view_get_nearest_atm_menu">Map View</string>
+    <string name="Street_view_get_nearest_atm_menu">Street View</string>
+    <string name="see_traffic_get_nearest_atm_menu">See Traffic</string>
+    <!-- End of get nearest ATM Menu Strings -->
+    
+    <string name="call_customer_care_homescreen_menu">Call Customer Care</string>
+    <string name="contact_us_homescreen_menu">Contact Us</string>
+    
+    <string name="nse_live_main_menu">NSE Live Menu</string>
+    <string name="my_portfolio_nse_live_menu">My PortFolio</string>
+    <string name="my_watchlist_nse_live_menu">My WatchList</string>
+    <string name="top_gainers_nse_live_menu">Top Gainers</string>
+    <string name="top_losers_nse_live_menu">Top Losers</string>
+    <string name="not_items_to_display">No items to display</string>
+</resources>

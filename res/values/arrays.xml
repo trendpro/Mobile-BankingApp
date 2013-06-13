@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="change_language_names">
+		<item>English-Us</item>
+	</string-array>
+
+	<string-array name="change_language_clauses">
+		<item>en_US</item>
+	</string-array>    
+</resources>

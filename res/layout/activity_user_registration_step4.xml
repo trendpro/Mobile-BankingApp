@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/user_registration_step1_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+	<!-- Body starts here -->
+        
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/user_registration_step1_header">
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+ 
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Step 4 of 4:Terms and Conditions"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc1_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc2_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc3_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc4_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc5_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc6_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc7_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc8_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc9_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc10_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+                <TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc11_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc12_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc13_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc14_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc15_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc16_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc17_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc18_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc19_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc20_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc21_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc22_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		<TextView
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc23_user_reg"
+            		android:textSize="10dip"
+            		android:state_enabled="false"/>
+            		
+            		<CheckBox 
+                    android:id="@+id/tc_acceptance_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/tc_acceptance_user_reg"/>
+            		
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent">			            
+            
+			<TableRow>
+        		<Button
+            		android:id="@+id/btn_finish_user_reg_step4"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Finish" />
+        
+       
+            	<Button
+            		android:id="@+id/btn_cancel_user_reg_step4"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Cancel" />
+			</TableRow>
+			<TableRow >
+			    <TextView android:id="@+id/user_reg2_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+			</TableRow>
+            
+        </TableLayout>  
+    </LinearLayout>
+    </ScrollView>
+  
+    <!--  Include Footer -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

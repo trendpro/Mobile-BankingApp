@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/reauthentication_funds_transfer_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+    <!--Body starts -->   
+     
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/reauthentication_funds_transfer_header">
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="@string/activity_title_funds_transfer_main_menu_option"
+            android:textSize="25dip"
+            android:textStyle="bold" />
+        <!--  Email Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/customer_id_funds_transfer_main_menu_option" />
+        <!--  Email TextField -->
+        <EditText
+            android:id="@+id/reauth_customer_Id_funds_transfer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+ 
+        <!--  Password Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dip"
+            android:text="@string/password_funds_transfer_main_menu_option" />
+        <!--  Password TextField -->
+        <EditText
+            android:id="@+id/reauth_password_funds_transfer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:password="true" />
+ 
+        <!--  Error message -->
+        <TextView android:id="@+id/reauth_login_error_funds_transfer"
+                  android:layout_width="fill_parent"
+                  android:layout_height="wrap_content"
+                  android:textColor="#e30000"
+                  android:padding="10dip"
+                  android:textStyle="bold"/>
+ 
+        
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			>
+			<TableRow>
+			    <!--  Login Button -->
+        		<Button
+            		android:id="@+id/btn_login_funds_transfer"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="@string/btn_re_authenticate_funds_transfer_main_menu_option" />
+        
+        		<!-- Cancel login button-->
+       
+            	<Button
+            		android:id="@+id/btn_Cancel_funds_transfer"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="@string/btn_cancel_title" />
+			</TableRow>
+            
+        </TableLayout>
+        <Button
+            	android:id="@+id/btn_logout_funds_transfer_main_menu_option"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:background="@null"
+            	android:text="@string/btn_logout_title" 
+            	android:textColor="#21dbd4"
+            	android:textStyle="bold"/>
+        
+    </LinearLayout>
+    </ScrollView>
+   
+
+
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<!--  Include Footer -->
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+
+
+</RelativeLayout>
+
+

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="co.ke.equity"
+    
+    android:versionCode="1"
+    android:versionName="1.0" >
+    
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+	<uses-permission android:name="android.permission.CALL_PHONE" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	
+    
+
+    <uses-sdk android:minSdkVersion="7" />
+
+    <application
+        android:theme="@style/Theme.D1"
+      android:icon="@drawable/ic_launcher" 
+      android:label="@string/app_name">
+      <uses-library android:name="com.google.android.maps" />
+      
+      <activity android:name=".MainAppLoginActivity"
+                  android:label="@string/app_name">
+         <intent-filter>
+             <action android:name="android.intent.action.MAIN" />
+             <category android:name="android.intent.category.LAUNCHER" />
+         </intent-filter>
+      </activity>
+      
+      <activity android:name=".HomeActivity"
+             android:label="@string/app_name"
+             android:theme="@style/Theme.D1"
+             /> 
+
+      <activity android:name=".GetNearestATMActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature1"
+            />
+      <activity android:name=".Eazzy247LoginActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+      <activity android:name=".RatesAndChargesActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature3"
+            />
+      <activity android:name=".NseLiveActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".AddNewListingActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".NSELiveMyPortfolioActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".NSELiveMyWatchListActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".NSELiveTopGainersActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".NSELiveTopLosersActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature4"
+            />
+      <activity android:name=".EquityNewsActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature5"
+            />
+      <activity android:name=".AboutActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_about"
+            />
+      <activity android:name=".UserSignUpActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/user_reg_step1_title"
+            />
+       <activity android:name=".UserRegistrationStep2Activity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/user_reg_step1_title"
+            />
+        <activity android:name=".UserRegistrationStep3Activity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/user_reg_step1_title"
+            />
+        <activity android:name=".UserRegistrationStep4Activity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/user_reg_step1_title"
+            />
+        <activity android:name=".UserRegistrationNormalActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/user_reg_step1_title"
+            />
+        <activity android:name=".Eazzy247MainMenuActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".AirtimeTopUpMainMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".BalanceEnquiryMainMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".MiniStatementMainMenuOption"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".ReauthenticationFundsTransferMainMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".FundsTransferMainMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".PayBillMainMenuActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".AddABillBillPaymentMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".DeleteABillBillPaymentMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".RequestsMainMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".StopACardRequestsMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".StopAChequeRequestsMenuOptionActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".ChangeLanguagePreferenceActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name=".SettingsMainMenuOptionsActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+        <activity android:name="co.ke.equity.ChangePasswordSettingsMenuActivity"
+            android:theme="@style/Theme.D1"
+            android:label="@string/title_feature2"
+            />
+    </application>
+
+</manifest>

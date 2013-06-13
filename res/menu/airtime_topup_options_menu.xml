@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/add_beneficiary_airtime_topup"
+		android:title="@string/add_beneficiary"
+		android:icon="@drawable/ic_menu_add"/>
+    
+	<item android:id="@+id/delete_beneficiary_airtime_menu"
+		android:title="@string/delete_beneficiary"
+		android:icon="@drawable/ic_menu_delete"/>
+</menu>

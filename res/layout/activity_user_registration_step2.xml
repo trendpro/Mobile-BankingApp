@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/user_registration_step1_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+	<!-- Body starts here -->
+        
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/user_registration_step1_header">
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+ 
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Step 2 of 4:Account Details"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/atm_card_no_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/atm_card_no_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/atm_card_expiry_date_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/atmcard_expiry_date_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/account_no1_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/account_no1_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/alias_name1_user_reg" />
+               
+        		<EditText
+            		android:id="@+id/alias_name1_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/account_no2_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/account_no2_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/alias_name2_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/alias_name2_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/account_no3_user_reg" />
+      
+        		<EditText
+            		android:id="@+id/account_no3_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+        </TableLayout> 
+        
+        <TableLayout 
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+            <TableRow>
+        		<Button
+            		android:id="@+id/btn_next_user_reg_step2"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Next" />
+        
+       
+            	<Button
+            		android:id="@+id/btn_cancel_user_reg_step2"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Cancel" />
+			</TableRow>
+			<TableRow >
+			    <TextView android:id="@+id/user_reg_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+			</TableRow>
+            
+        </TableLayout> 
+    </LinearLayout>
+    </ScrollView>
+  
+    <!--  Include Footer -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

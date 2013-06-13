@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/add_new_listing_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+    </LinearLayout>
+	
+    <!-- Body starts here -->
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/add_new_listing_header">
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+ 
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Add Company Listing"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Compay Name" />
+      
+        		<EditText
+            		android:id="@+id/company_name_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+           
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Listing ID" />
+      
+        		<EditText
+            		android:id="@+id/compny_listing_id_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Number of Shares" />
+      
+        		<EditText
+            		android:id="@+id/no_of_shares_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"/> 
+            </TableRow>
+            <TableRow >
+               
+            </TableRow>
+            	<Button
+            		android:id="@+id/btn_add_company_listing"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Add Company Listing" />
+            <TableRow >
+              <!-- Add 'Add Share Listing' title -->
+              <TextView
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginBottom="10dip"
+            	android:text="Add Share Listing"
+            	android:textSize="20dip"
+            	android:textStyle="bold" />
+            </TableRow>
+            
+            <TableRow >
+               <TextView
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="Share Listing ID" />
+      
+        		<EditText
+            		android:id="@+id/share_listing_id"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+            
+            <TableRow >
+                <Button
+            		android:id="@+id/btn_add_share_listing"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Add Share Listing" />
+                
+            </TableRow>
+            
+            <TableRow >
+			    <TextView android:id="@+id/add_share_listing_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+			</TableRow>
+        </TableLayout> 
+                    
+        <TextView android:id="@+id/user_sign_up_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+        
+    </LinearLayout>
+    </ScrollView>
+    
+	<!-- Footer Begins here -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

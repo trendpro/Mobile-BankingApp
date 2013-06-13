@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/eazzy247_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+    <!--Body starts -->   
+     
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/eazzy247_header"
+        android:layout_centerInParent="true">
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:orientation="vertical"
+        	android:layout_centerHorizontal="true"
+        	android:padding="10dip" >
+        	<!--  View Title Label -->
+        	<TextView
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginBottom="10dip"
+            	android:text="@string/menu_eazyy247_main_menu"
+            	android:textSize="25dip"
+            	android:textStyle="bold"/>
+        
+        	<Button
+            	android:id="@+id/btn_airtime_menu"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/airtime_topup_eazyy247_main_menu" />
+        
+       
+         	<Button
+            	android:id="@+id/btn_balance_enquiry"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/balance_enquiry_eazyy247_main_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_ministatement"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/mini_statement_eazyy247_main_menu" />
+			
+         	<Button
+            	android:id="@+id/btn_funds_transafer"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/funds_transfer_eazyy247_main_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_bill_payment"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/bill_payment_eazyy247_main_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_requests"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/requests_eazyy247_main_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_settings"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/Settings__eazyy247_main_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_logout_eazyy247_main_menu"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:background="@null"
+            	android:text="@string/logout_eazyy247_main_menu" 
+            	android:textColor="#21dbd4"
+            	android:textStyle="bold"/>
+         
+         	<TextView android:id="@+id/eazyy247_main_menu_hidden"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e30000"
+                android:padding="10dip"
+                android:textStyle="bold"/>
+    	</LinearLayout>
+    </ScrollView>
+   
+
+
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<!--  Include Footer -->
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

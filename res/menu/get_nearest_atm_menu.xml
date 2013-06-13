@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<item android:id="@+id/satelite_view_menu_get_nearest_atm"
+		android:title="@string/satelite_view_get_nearest_atm_menu"/>
+	
+	<item android:id="@+id/map_view_menu_get_nearest_atm"
+		android:title="@string/map_view_get_nearest_atm_menu"/>
+	
+	<item android:id="@+id/traffic_view_menu_get_nearest_atm"
+		android:title="@string/see_traffic_get_nearest_atm_menu"/>
+	
+	<item android:id="@+id/street_view_menu_get_nearest_atm"
+		android:title="@string/Street_view_get_nearest_atm_menu"/>		
+    
+</menu>

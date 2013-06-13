@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/nse_live_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+	
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/nse_live_header"
+        android:layout_centerInParent="true">
+        
+        <LinearLayout
+        	android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+        	android:orientation="vertical"
+        	android:layout_centerHorizontal="true"
+        	android:padding="10dip" >
+        	<!--  View Title Label -->
+        	<TextView
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginBottom="10dip"
+            	android:text="@string/nse_live_main_menu"
+            	android:textSize="25dip"
+            	android:textStyle="bold"/>
+        
+        	<Button
+            	android:id="@+id/btn_my_portfolio"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/my_portfolio_nse_live_menu" />
+        
+       
+         	<Button
+            	android:id="@+id/btn_my_watchlist"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/my_watchlist_nse_live_menu" />
+         
+         	<Button
+            	android:id="@+id/btn_top_gainers"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/top_gainers_nse_live_menu" />
+			
+         	<Button
+            	android:id="@+id/btn_top_losers"
+            	android:layout_width="fill_parent"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="10dip"
+            	android:text="@string/top_losers_nse_live_menu" />
+         
+         	<TextView android:id="@+id/eazyy247_main_menu_hidden"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#e30000"
+                android:padding="10dip"
+                android:textStyle="bold"/>
+    	</LinearLayout>
+    </ScrollView>
+	
+	<!-- Footer Begins here -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+	<item android:id="@+id/add_bill_bill_payment"
+		android:title="@string/add_a_bill_ic_menu_bill_payment_main_menu_option"
+		android:icon="@drawable/ic_menu_add"/>
+    
+	<item android:id="@+id/delete_bill_bill_payment"
+		android:title="@string/delete_a_bill_ic_menu_bill_payment_main_menu_option"
+		android:icon="@drawable/ic_menu_delete"/>
+</menu>

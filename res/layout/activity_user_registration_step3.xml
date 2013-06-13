@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+    
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/user_registration_step1_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+	<!-- Body starts here -->
+        
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/user_registration_step1_header">
+        
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:padding="10dip" >
+ 
+        <!--  View Title Label -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dip"
+            android:text="Step 3 of 4:Services You Need"
+            android:textSize="20dip"
+            android:textStyle="bold" />
+        
+        <TableLayout
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:stretchColumns="1">
+			
+            <TableRow >
+                <CheckBox 
+                    android:id="@+id/salary_remittance_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/salary_remittance_alert_user_reg"/>
+                       
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/card_trasaction_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/card_transaction_alert_user_reg"/>
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/overdrawn_ac_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/overdrawn_ac_alert_user_reg"/>
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/cheque_cleared_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/cheque_cleared_alert_user_reg"/> 
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/cheque_deposit_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/cheque_deposit_alert_user_reg"/>
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/on_large_debit_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/on_large_debit_ksh_user_reg"/>
+               <EditText
+            		android:id="@+id/on_large_debit_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" />
+            </TableRow>
+            <TableRow >
+               <CheckBox 
+                    android:id="@+id/on_large_credit_alert_chkbx"
+                    android:layout_width="fill_parent"
+            		android:layout_height="wrap_content"
+            		android:text="@string/on_large_credit_ksh_user_reg"/>
+      
+        		<EditText
+            		android:id="@+id/on_large_credit_edittext"
+            		android:layout_width="fill_parent"
+            		android:layout_height="wrap_content" /> 
+            </TableRow>
+        </TableLayout> 
+
+        <TableLayout 
+            android:layout_width="fill_parent"
+			android:layout_height="fill_parent">
+            <TableRow>
+        		<Button
+            		android:id="@+id/btn_next_user_reg_step3"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Next" />
+        
+       
+            	<Button
+            		android:id="@+id/btn_cancel_user_reg_step3"
+            		android:layout_width="wrap_content"
+            		android:layout_height="wrap_content"
+            		android:layout_marginTop="20dip"
+            		android:text="Cancel" />
+			</TableRow>
+			<TableRow >
+			    <TextView android:id="@+id/user_reg_hidden"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#e30000"
+                    android:padding="10dip"
+                    android:textStyle="bold"/>
+			</TableRow>
+            
+        </TableLayout>    
+    </LinearLayout>
+    </ScrollView>
+  
+    <!--  Include Footer -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>

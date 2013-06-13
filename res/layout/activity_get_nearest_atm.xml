@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    >
+    <LinearLayout style="@style/TitleBar"
+        android:id="@+id/get_nearest_atm_header">
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_home"
+            android:src="@drawable/title_home"
+            android:onClick="onClickHome" />
+
+        <ImageView style="@style/TitleBarSeparator" />
+        <TextView style="@style/TitleBarText" />
+        <ImageButton style="@style/TitleBarAction"
+            android:contentDescription="@string/description_about"
+            android:src="@drawable/title_about"
+            android:onClick="onClickAbout" />
+        
+    </LinearLayout>
+    
+    <!-- Body starts here -->
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+ 		android:paddingBottom="35dip"
+        android:layout_below="@id/get_nearest_atm_header">
+        
+			<com.google.android.maps.MapView
+				android:id="@+id/map"
+				android:layout_width="fill_parent"
+				android:layout_height="fill_parent"
+				android:apiKey="0fa9y1iJzmq1aIsKZnltAFOMM-MDw7JgdJmYX0A"
+				android:clickable="true"
+				android:enabled="true"/>
+			
+	</LinearLayout>
+
+	<!-- Footer starts here -->
+	<LinearLayout
+    	android:layout_width="fill_parent" 
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true">
+        
+    	<include layout="@layout/footer_layout"/>
+    
+	</LinearLayout>
+</RelativeLayout>
